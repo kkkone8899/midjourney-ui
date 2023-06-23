@@ -72,12 +72,12 @@ export default function Main(children: JSX.Element) {
         route={ROUTES}
         avatarProps={{
           src: 'logo.png',
-          title: 'Eric',
+          title: 'JUNGEAI',
         }}
         actionsRender={(props) => {
           if (props.isMobile) return [];
           return [
-            <Link href="https://github.com/erictik/midjourney-ui" key="about">
+            <Link href="https://github.com/" key="about">
              <GithubFilled  style={{
               fontSize: 24,
              }}/>
