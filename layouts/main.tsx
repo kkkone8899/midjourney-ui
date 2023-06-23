@@ -67,7 +67,7 @@ export default function Main(children: JSX.Element) {
       hashed={false}>
       <ProLayout
         logo={"logo.png"}
-        title="AI Draw"
+        title="MJ-绘画"
         style={{ minHeight: '100vh' }}
         route={ROUTES}
         avatarProps={{
